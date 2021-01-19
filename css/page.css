@@ -29,7 +29,7 @@ html::-webkit-scrollbar {
   height: 50px;
   position: sticky;
   top: 0;
-  background-color: #2ecc71;
+  background-color: #30336b;
   display: flex;
   align-items: center;
   justify-content: space-between;
