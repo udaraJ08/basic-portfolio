@@ -1,4 +1,8 @@
 /* svg-font-design start*/
+.letter_color {
+  stroke: black;
+}
+
 #letter_U {
   stroke-dasharray: 700;
   stroke-dashoffset: 700;
@@ -342,6 +346,28 @@
   }
 }
 /* svg-bulb finish */
+/* *************** */
+
+/* svg-cloud start */
+#cloud {
+  animation: cloudAnimation 5s infinite alternate linear;
+  fill: #22a6b3;
+}
+
+@keyframes cloudAnimation {
+ 40%{
+   transform: translate(-100px);
+ }
+
+ 80%{
+   transform: translate(100px);
+ }
+
+ 100%{
+   transform: translate(0);
+ }
+}
+/* svg-cloud finish */
 /* *************** */
 
 #temp {
