@@ -354,21 +354,70 @@
   fill: #22a6b3;
 }
 
+#cloud:hover {
+  fill: #2c3a47;
+  stroke: blue;
+  stroke-width: 5px;
+}
+
 @keyframes cloudAnimation {
- 40%{
-   transform: translate(-100px);
- }
+  40% {
+    transform: translate(-100px);
+  }
 
- 80%{
-   transform: translate(100px);
- }
+  80% {
+    transform: translate(100px);
+  }
 
- 100%{
-   transform: translate(0);
- }
+  100% {
+    transform: translate(0);
+  }
 }
 /* svg-cloud finish */
 /* *************** */
+
+/* boatanimation start */
+@keyframes boatAnimation {
+  0% {
+    transform: translateX(-100vh);
+  }
+
+  100% {
+    transform: translateX(150vh);
+  }
+}
+/* boatanimation finish */
+/* ******************* */
+
+/* start-animation start */
+@keyframes starAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+/* start-animation finish */
+/* ********************* */
 
 #temp {
   fill: black;
