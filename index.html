@@ -13,9 +13,11 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js"></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="loader"></div>
     <div class="hero-header center">
       <div class="star-row">
         <img src="./assets/star.png" alt="" />
@@ -685,4 +687,9 @@
       </ul>
     </nav>
   </body>
+  <script>
+    $(window).on('load',() => {
+      $('.loader').slideUp('slow')
+    });
+  </script>
 </html>
